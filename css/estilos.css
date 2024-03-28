@@ -315,7 +315,7 @@ span {
 }
 
 .acerca-imagen img {
-    height: 100%;
+    height: 80%;
     width: 60%;
     border-radius: 50%;
     border: .2rem solid var(--colorPrincipal);
@@ -326,14 +326,14 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0);
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
     border-top: .2rem solid var(--segundoColorFondo);
-    border-bottom: .2rem solid var(--segundoColorFondo);
+    border-bottom: .1rem solid var(--segundoColorFondo);
     border-left: .2rem solid var(--colorPrincipal);
     border-right: .2rem solid var(--colorPrincipal);
-    animation: acercaVueltas 8s linear infinite;
+    animation: acercaVueltas 8s linear infinite;  
 }
 
 .acerca-contenido {
